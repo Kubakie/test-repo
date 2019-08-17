@@ -1,19 +1,29 @@
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    line-height: 1.4em;
-    vertical-align: baseline;
-    text-decoration: none;
-    outline: 0;
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0
 }
 
 section {
     text-align: center;
-    font-family: arial;
+    font-family: "arial";
     font-size: 18px;
+    margin-top: 20px;
+    word-wrap: break-word;
+    width: 60vw;
+    padding: 48px 0;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
 
     h2 {
-        line-height: 30px;
+        margin-top: 20px;
     }
+}
+
+p {
+    text-overflow: ellipsis;
 }
