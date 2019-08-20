@@ -1,0 +1,6 @@
+autoprefixer cli
+command:
+autoprefixer-cli -o style.prefixed.css css/style.css
+html-checker
+command:
+vnu --skip-non-html DIRECTORY_PATH

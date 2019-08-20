@@ -18,6 +18,7 @@ section {
     padding: 48px 0;
     border-top: 1px solid;
     border-bottom: 1px solid;
+    display: -ms-flexbox;
     display: flex;
 
     h2 {
